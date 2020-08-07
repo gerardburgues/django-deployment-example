@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Wlcome to relative url templates</h1>
+     <!-- need to match with urls.py tagg name basic_app-->
+    <a href="{% url 'basic_app:other' %}">welcome to other</a>
+    <a href="{% url 'admin:index' %}">Admin here</a>
+      <a href="{% url 'index' %}">Admin here</a>
+
+  </body>
+</html>
